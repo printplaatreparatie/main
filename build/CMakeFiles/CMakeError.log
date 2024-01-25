@@ -1,0 +1,120 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-BY7HEF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d1683/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1683.dir/build.make CMakeFiles/cmTC_d1683.dir/build
+gmake[1]: Entering directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-BY7HEF'
+Building C object CMakeFiles/cmTC_d1683.dir/CMakeCCompilerABI.c.obj
+/usr/bin/gcc-12   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_d1683.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+gcc-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc-12
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+gcc-12: error: unrecognized command-line option '-mthumb'
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-ALHxjy/gcc-12-12.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-ALHxjy/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~22.04) 
+gmake[1]: *** [CMakeFiles/cmTC_d1683.dir/build.make:78: CMakeFiles/cmTC_d1683.dir/CMakeCCompilerABI.c.obj] Error 1
+gmake[1]: Leaving directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-BY7HEF'
+gmake: *** [Makefile:127: cmTC_d1683/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-9YHxph
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_337e5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_337e5.dir/build.make CMakeFiles/cmTC_337e5.dir/build
+gmake[1]: Entering directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-9YHxph'
+Building C object CMakeFiles/cmTC_337e5.dir/testCCompiler.c.obj
+/usr/bin/gcc-12   -mcpu=cortex-m0plus -mthumb  -o CMakeFiles/cmTC_337e5.dir/testCCompiler.c.obj -c /home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-9YHxph/testCCompiler.c
+gcc-12: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc-12: error: unrecognized command-line option ‘-mthumb’
+gmake[1]: *** [CMakeFiles/cmTC_337e5.dir/build.make:78: CMakeFiles/cmTC_337e5.dir/testCCompiler.c.obj] Error 1
+gmake[1]: Leaving directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-9YHxph'
+gmake: *** [Makefile:127: cmTC_337e5/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-Ewj8cd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d11cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d11cc.dir/build.make CMakeFiles/cmTC_d11cc.dir/build
+gmake[1]: Entering directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-Ewj8cd'
+Building C object CMakeFiles/cmTC_d11cc.dir/CMakeCCompilerABI.c.obj
+/usr/bin/gcc-12   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_d11cc.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+gcc-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc-12
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+gcc-12: error: unrecognized command-line option '-mthumb'
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-ALHxjy/gcc-12-12.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-ALHxjy/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~22.04) 
+gmake[1]: *** [CMakeFiles/cmTC_d11cc.dir/build.make:78: CMakeFiles/cmTC_d11cc.dir/CMakeCCompilerABI.c.obj] Error 1
+gmake[1]: Leaving directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-Ewj8cd'
+gmake: *** [Makefile:127: cmTC_d11cc/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-mGwwXY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_715db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_715db.dir/build.make CMakeFiles/cmTC_715db.dir/build
+gmake[1]: Entering directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-mGwwXY'
+Building C object CMakeFiles/cmTC_715db.dir/testCCompiler.c.obj
+/usr/bin/gcc-12   -mcpu=cortex-m0plus -mthumb  -o CMakeFiles/cmTC_715db.dir/testCCompiler.c.obj -c /home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-mGwwXY/testCCompiler.c
+gcc-12: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc-12: error: unrecognized command-line option ‘-mthumb’
+gmake[1]: *** [CMakeFiles/cmTC_715db.dir/build.make:78: CMakeFiles/cmTC_715db.dir/testCCompiler.c.obj] Error 1
+gmake[1]: Leaving directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-mGwwXY'
+gmake: *** [Makefile:127: cmTC_715db/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-Bz0OTY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55489/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55489.dir/build.make CMakeFiles/cmTC_55489.dir/build
+gmake[1]: Entering directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-Bz0OTY'
+Building C object CMakeFiles/cmTC_55489.dir/CMakeCCompilerABI.c.obj
+/usr/bin/gcc-12   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_55489.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+gcc-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc-12
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+gcc-12: error: unrecognized command-line option '-mthumb'
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-ALHxjy/gcc-12-12.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-ALHxjy/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~22.04) 
+gmake[1]: *** [CMakeFiles/cmTC_55489.dir/build.make:78: CMakeFiles/cmTC_55489.dir/CMakeCCompilerABI.c.obj] Error 1
+gmake[1]: Leaving directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-Bz0OTY'
+gmake: *** [Makefile:127: cmTC_55489/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-X2fWGg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05e03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05e03.dir/build.make CMakeFiles/cmTC_05e03.dir/build
+gmake[1]: Entering directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-X2fWGg'
+Building C object CMakeFiles/cmTC_05e03.dir/testCCompiler.c.obj
+/usr/bin/gcc-12   -mcpu=cortex-m0plus -mthumb  -o CMakeFiles/cmTC_05e03.dir/testCCompiler.c.obj -c /home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-X2fWGg/testCCompiler.c
+gcc-12: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc-12: error: unrecognized command-line option ‘-mthumb’
+gmake[1]: *** [CMakeFiles/cmTC_05e03.dir/build.make:78: CMakeFiles/cmTC_05e03.dir/testCCompiler.c.obj] Error 1
+gmake[1]: Leaving directory '/home/wilbrink/Documents/main/build/CMakeFiles/CMakeScratch/TryCompile-X2fWGg'
+gmake: *** [Makefile:127: cmTC_05e03/fast] Error 2
+
+
+
