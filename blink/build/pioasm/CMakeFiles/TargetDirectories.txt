@@ -1,3 +1,0 @@
-/home/wilbrink/Documents/main/blink/build/pioasm/CMakeFiles/pioasm.dir
-/home/wilbrink/Documents/main/blink/build/pioasm/CMakeFiles/edit_cache.dir
-/home/wilbrink/Documents/main/blink/build/pioasm/CMakeFiles/rebuild_cache.dir
