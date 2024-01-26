@@ -3,7 +3,7 @@
 
 int main() {
 
-    const uint led_pin = 25;
+    const uint led_pin = 9;
 
     // Initialize LED pin
     gpio_init(led_pin);
